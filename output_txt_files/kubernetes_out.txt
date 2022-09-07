@@ -3,3 +3,11 @@ ml-app-v1                      1/1     Running   2 (3h51m ago)   6h47m
 mypython-app-fb44c4f49-jbcfg   1/1     Running   0               7m2s
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
+
+voclabs:~/environment/project-ml-microservice-kubernetes (main) $ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
